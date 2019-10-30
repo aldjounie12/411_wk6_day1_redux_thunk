@@ -14,6 +14,7 @@ class AddCar extends Component {
         mpg: '',
         cylinders: '',
         horsepower: '',
+        makes: '',
     }
 
     toggleDialog = () => this.setState({ open: !this.state.open })

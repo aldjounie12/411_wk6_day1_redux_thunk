@@ -22,6 +22,9 @@ const Navigation = () => {
                         <Link to="/about">About</Link>
                     </li>
                     <li className="nav-list-item">
+                        <Link to="/import">Imports</Link>
+                    </li>
+                    <li className="nav-list-item">
                         <Link to="/dashboard">Dasboard</Link>
                     </li>
                 </ul>
@@ -31,3 +34,12 @@ const Navigation = () => {
 }
 
 export default Navigation
+
+
+
+
+
+
+
+
+
